@@ -1,0 +1,10 @@
+
+
+disabled:
+  - r"^/root/.ssh\/?$"
+  - r"^/home/(.*?)/.ssh\/?$"
+
+
+readonly:
+  - r"^\/$"
+  - r"^/etc\/?$"
